@@ -30,7 +30,7 @@ fi
 PACKAGE_NAME=CCS.Unity.GooglePlayGames
 NPM_REGISTRY=http://20.194.197.149:4873
 
-if ! pushd Assets\Public\GooglePlayGames\com.google.play.games ; then
+if ! pushd Assets/Public/GooglePlayGames/com.google.play.games ; then
     exit 1
 fi
 
