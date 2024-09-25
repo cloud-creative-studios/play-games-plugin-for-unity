@@ -30,6 +30,10 @@ fi
 PACKAGE_NAME=CCS.Unity.GooglePlayGames
 NPM_REGISTRY=http://20.194.197.149:4873
 
+if ! pushd Assets\Public\GooglePlayGames\com.google.play.games ; then
+    exit 1
+fi
+
 VERSION=$(npm version $1 --no-git-tag-version)
 
 git add package.json
