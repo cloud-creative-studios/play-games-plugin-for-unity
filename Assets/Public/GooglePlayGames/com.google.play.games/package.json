@@ -8,7 +8,7 @@
         "name": "Google LLC"
     },
     "dependencies": {
-        "com.google.external-dependency-manager": "1.2.183"
+        "com.google.external-dependency-manager": "1.2.171"
     },
     "samples": [
         {
