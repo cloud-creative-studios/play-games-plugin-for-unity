@@ -103,7 +103,7 @@ namespace GooglePlayGames.Editor
         /// </summary>
         private const string GameInfoRelativePath = "GooglePlayGames/Runtime/Scripts/GameInfo.cs";
 
-        private const string RootFolderName = "com.google.play.games";
+        private const string RootFolderName = "com.cloud-creative-studios.unity.google.play.games";
 
         /// <summary>
         /// The root path of the Google Play Games plugin
