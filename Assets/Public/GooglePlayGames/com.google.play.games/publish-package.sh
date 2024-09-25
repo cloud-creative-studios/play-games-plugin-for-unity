@@ -38,5 +38,3 @@ git push --follow-tags
 
 npm-cli-login
 npm publish
-
-popd
