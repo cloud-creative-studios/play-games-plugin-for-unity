@@ -116,16 +116,16 @@ namespace GooglePlayGames.Editor
 
                 AssetDatabase.Refresh();
 
-                Google.VersionHandler.VerboseLoggingEnabled = true;
-                Google.VersionHandler.UpdateVersionedAssets(forceUpdate: true);
-                Google.VersionHandler.Enabled = true;
-                AssetDatabase.Refresh();
+                //Google.VersionHandler.VerboseLoggingEnabled = true;
+                //Google.VersionHandler.UpdateVersionedAssets(forceUpdate: true);
+                //Google.VersionHandler.Enabled = true;
+                //AssetDatabase.Refresh();
 
-                Google.VersionHandler.InvokeStaticMethod(
-                    Google.VersionHandler.FindClass(
-                        "Google.JarResolver",
-                        "GooglePlayServices.PlayServicesResolver"),
-                    "MenuResolve", null);
+                //Google.VersionHandler.InvokeStaticMethod(
+                //    Google.VersionHandler.FindClass(
+                //        "Google.JarResolver",
+                //        "GooglePlayServices.PlayServicesResolver"),
+                //    "MenuResolve", null);
 
                 return PerformSetup(
                     clientId,
